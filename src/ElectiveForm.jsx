@@ -1,16 +1,17 @@
 import { useState } from "react";
 import "./ElectiveForm.css";
 
-const departments = ["CSE", "ECE", "EEE", "ME", "CE"];
+const departments = ["CSE", "ME", "ECE", "EEE", "PE", "CE", "CHEM", "ARCH"];
 
 const courses = [
-  { name: "AI", dept: "CSE" },
-  { name: "Data Science", dept: "CSE" },
-  { name: "VLSI", dept: "ECE" },
-  { name: "Embedded Systems", dept: "ECE" },
-  { name: "Power Systems", dept: "EEE" },
-  { name: "Robotics", dept: "ME" },
-  { name: "Structural Design", dept: "CE" },
+  { name: "(CSE)INTRODUCTION TO MACHINE LEARNING", dept: "CSE" },
+  { name: "(PE)INDUSTRIAL SAFETY", dept: "PE" },
+  { name: "(CHEM)NANOMATERIALS AND NANOTECHNOLOGY", dept: "CHEM" },
+  { name: "(EEE)ENERGY EFFICIENCY IN ELECTRICAL ENGINEERING", dept: "EEE" },
+  { name: "(EEE)ELECTRIC CHARGING SYSTEM FOR ELECTRIC VEHICLES", dept: "EEE" },
+  { name: "(ME)ENTREPRENURSHIP DEVELOPMENT", dept: "ME" },
+  { name: "(CE)NATURAL HAZARDS AND IMPACT MANAGEMENT", dept: "CE" },
+  { name: "(ARCH)BARRIER FREE BUILT ENVIRONMENT", dept: "ARCH" },
 ];
 
 export default function ElectiveForm() {
